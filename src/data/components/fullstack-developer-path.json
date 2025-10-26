@@ -1,0 +1,23 @@
+{
+  "name": "Full-Stack Developer Path",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Allowed" },
+    { "name": "Enrolment type", "content": "Manager approval required" },
+    { "name": "Maximum capacity", "content": "100 learners" },
+    { "name": "Cancelation type", "content": "Admin cancelation only" },
+    { "name": "Component ID", "content": "CMP-002" },
+    { "name": "Identification code", "content": "LP-FULLSTACK-002" },
+    { "name": "Enrolment status", "content": "Pending approval" },
+    { "name": "Learning mode", "content": "Learning path" },
+    { "name": "Administrator", "content": "John Smith" },
+    { "name": "Provider", "content": "TechAcademy Global" },
+    { "name": "Cost centre", "content": "Web Development" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.01.2025 08:00 (GMT+02:00)",
+  "endDate": "01.12.2025 08:00 (GMT+02:00)",
+  "learningForm": "Learning Path",
+  "image": "/data/program/fullstack-path.jpg"
+}

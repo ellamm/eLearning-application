@@ -1,0 +1,23 @@
+{
+  "name": "Building Accessible Web Apps",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Allowed" },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "50 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-007" },
+    { "name": "Identification code", "content": "CRS-ACCESS-007" },
+    { "name": "Enrolment status", "content": "Enrolled" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "Alexandra Wright" },
+    { "name": "Provider", "content": "Inclusive Design Hub" },
+    { "name": "Cost centre", "content": "Frontend Accessibility" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.05.2025 08:00 (GMT+02:00)",
+  "endDate": "01.07.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/accessibility.jpg"
+}

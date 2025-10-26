@@ -1,0 +1,23 @@
+{
+  "name": "Microlearning: UX vs UI",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Always accessible" },
+    { "name": "Post-conclusion accessibility", "content": "Always accessible" },
+    { "name": "Enrolment type", "content": "Open access" },
+    { "name": "Maximum capacity", "content": "Unlimited" },
+    { "name": "Cancelation type", "content": "Not applicable" },
+    { "name": "Component ID", "content": "CMP-003" },
+    { "name": "Identification code", "content": "MD-UXUI-003" },
+    { "name": "Enrolment status", "content": "Completed" },
+    { "name": "Learning mode", "content": "Media" },
+    { "name": "Administrator", "content": "No Administrator selected" },
+    { "name": "Provider", "content": "Design Sprint Studio" },
+    { "name": "Cost centre", "content": "UX Education" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.03.2024 08:00 (GMT+02:00)",
+  "endDate": "01.03.2025 08:00 (GMT+02:00)",
+  "learningForm": "Media Item",
+  "image": "/data/media/ux-vs-ui.jpg"
+}

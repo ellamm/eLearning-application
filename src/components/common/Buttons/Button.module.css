@@ -1,0 +1,60 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-fast);
+  border: var(--border-medium) solid var(--color-primary);
+  font-size: var(--font-size-base);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.buttonOutline {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.buttonOutline:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: white;
+  transform: translateX(-2px);
+}
+
+.buttonOutline:active:not(:disabled) {
+  transform: translateX(0);
+}
+
+.buttonFilled {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.buttonFilled:hover:not(:disabled) {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.buttonFilled:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.backButtonLink {
+  display: inline-block;
+  margin-bottom: var(--spacing-lg);
+  text-decoration: none;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}

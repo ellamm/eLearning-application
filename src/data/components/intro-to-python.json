@@ -1,0 +1,23 @@
+{
+  "name": "Introduction to Python",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Allowed" },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "200 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-010" },
+    { "name": "Identification code", "content": "CRS-PYTHON-010" },
+    { "name": "Enrolment status", "content": "Active" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "George Lin" },
+    { "name": "Provider", "content": "Code Academy" },
+    { "name": "Cost centre", "content": "Software Training" }
+  ],
+  "language": "en-GB",
+  "startDate": "15.04.2025 08:00 (GMT+02:00)",
+  "endDate": "15.06.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/python.jpg"
+}

@@ -1,0 +1,21 @@
+.notFoundPage {
+  min-height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  max-width: 1400px;
+}
+
+.title {
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+}
+
+.message {
+  margin-bottom: var(--spacing-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+}

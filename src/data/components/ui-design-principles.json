@@ -1,0 +1,26 @@
+{
+  "name": "UI Design Principles",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    {
+      "name": "Post-conclusion accessibility",
+      "content": "Allowed with restrictions"
+    },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "30 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-004" },
+    { "name": "Identification code", "content": "CRS-UIDESIGN-004" },
+    { "name": "Enrolment status", "content": "Not enrolled" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "Sarah Lee" },
+    { "name": "Provider", "content": "Creative Design Hub" },
+    { "name": "Cost centre", "content": "Design Department" }
+  ],
+  "language": "en-GB",
+  "startDate": "12.02.2025 08:00 (GMT+02:00)",
+  "endDate": "25.05.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/ui-design.jpg"
+}

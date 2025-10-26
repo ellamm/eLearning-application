@@ -1,0 +1,23 @@
+{
+  "name": "Modern CSS Techniques",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Restricted" },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "40 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-009" },
+    { "name": "Identification code", "content": "CRS-CSS-009" },
+    { "name": "Enrolment status", "content": "Enrolled" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "Amira Novak" },
+    { "name": "Provider", "content": "Frontend Academy" },
+    { "name": "Cost centre", "content": "Web Design" }
+  ],
+  "language": "en-GB",
+  "startDate": "10.04.2025 08:00 (GMT+02:00)",
+  "endDate": "25.04.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/css.jpg"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Leadership Essentials",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Allowed" },
+    { "name": "Enrolment type", "content": "Manager nomination" },
+    { "name": "Maximum capacity", "content": "150 learners" },
+    { "name": "Cancelation type", "content": "Admin cancelation only" },
+    { "name": "Component ID", "content": "CMP-008" },
+    { "name": "Identification code", "content": "LP-LEAD-008" },
+    { "name": "Enrolment status", "content": "Active" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "Laura Kim" },
+    { "name": "Provider", "content": "Leadership Academy Europe" },
+    { "name": "Cost centre", "content": "Management Development" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.03.2025 08:00 (GMT+02:00)",
+  "endDate": "31.12.2025 08:00 (GMT+02:00)",
+  "learningForm": "Learning Path",
+  "image": "/data/program/leadership.jpg"
+}

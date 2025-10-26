@@ -1,0 +1,100 @@
+.searchForm {
+  display: flex;
+  gap: var(--spacing-md);
+  width: 100%;
+  align-items: stretch;
+}
+.searchContainer {
+  flex: 1;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding-block: var(--spacing-md);
+  padding-inline: var(--spacing-md) var(--spacing-2xl);
+  font-size: var(--font-size-base);
+  background: var(--color-card-bg);
+  border: var(--border-medium) solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  transition: all var(--transition-base);
+
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.searchInput::-webkit-search-cancel-button,
+.searchInput::-webkit-search-decoration,
+.searchInput::-webkit-search-results-button,
+.searchInput::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.searchInput::placeholder {
+  color: var(--color-text-muted);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-focus);
+  background: var(--color-bg-alt);
+}
+
+.clearButton {
+  position: absolute;
+  right: var(--spacing-md);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  background: var(--color-text-muted);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.clearButton:hover {
+  background: var(--color-text);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.clearButton:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.searchButton {
+  background: var(--color-primary);
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-weight: var(--font-weight-semibold);
+  color: white;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.searchButton:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.searchButton:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .searchForm {
+    flex-direction: column;
+  }
+
+  .searchButton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "React Fundamentals",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Not allowed" },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "50 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-001" },
+    { "name": "Identification code", "content": "CRS-REACT-001" },
+    { "name": "Enrolment status", "content": "Enrolled" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "Jane Doe" },
+    { "name": "Provider", "content": "CalorieIQ Academy" },
+    { "name": "Cost centre", "content": "Frontend Development" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.02.2025 08:00 (GMT+02:00)",
+  "endDate": "28.02.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/react-fundamentals.jpg"
+}

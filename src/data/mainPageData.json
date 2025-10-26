@@ -1,0 +1,109 @@
+{
+  "contents": [
+    {
+      "id": 1,
+      "name": "React Fundamentals",
+      "subtitle": "From 01.02.2025 to 28.02.2025",
+      "type": "COURSE",
+      "image": "/data/course/react-fundamentals.jpg",
+      "progress": 60
+    },
+    {
+      "id": 2,
+      "name": "Full-Stack Developer Path",
+      "subtitle": "Continue with learning path",
+      "type": "LEARNING_PATH",
+      "image": "/data/program/fullstack-path.jpg",
+      "progress": 45
+    },
+    {
+      "id": 3,
+      "name": "Microlearning: UX vs UI",
+      "subtitle": "Ended on 15 February 2025 11:27",
+      "type": "MEDIA_ITEM",
+      "image": "/data/media/ux-vs-ui.jpg",
+      "progress": 100
+    },
+    {
+      "id": 4,
+      "name": "UI Design Principles",
+      "subtitle": "Ended on 5 May 2025 16:17",
+      "type": "COURSE",
+      "image": "/data/course/ui-design.jpg",
+      "progress": 100
+    },
+    {
+      "id": 5,
+      "name": "Introduction to Data Visualization",
+      "subtitle": "From 10.03.2025 to 30.03.2025",
+      "type": "COURSE",
+      "image": "/data/course/data-viz.jpg",
+      "progress": 0
+    },
+    {
+      "id": 6,
+      "name": "Agile Project Management",
+      "subtitle": "Continue with learning path",
+      "type": "LEARNING_PATH",
+      "image": "/data/program/agile.jpg",
+      "progress": 30
+    },
+    {
+      "id": 7,
+      "name": "Building Accessible Web Apps",
+      "subtitle": "From 01.05.2025 to 01.07.2025",
+      "type": "COURSE",
+      "image": "/data/course/accessibility.jpg",
+      "progress": 85
+    },
+    {
+      "id": 8,
+      "name": "Leadership Essentials",
+      "subtitle": "From 01.03.2025 to 31.12.2025",
+      "type": "LEARNING_PATH",
+      "image": "/data/program/leadership.jpg",
+      "progress": 0
+    },
+    {
+      "id": 9,
+      "name": "Modern CSS Techniques",
+      "subtitle": "From 10.04.2025 to 25.04.2025",
+      "type": "COURSE",
+      "image": "/data/course/css.jpg",
+      "progress": 15
+    },
+    {
+      "id": 10,
+      "name": "Introduction to Python",
+      "subtitle": "From 15.04.2025 to 15.06.2025",
+      "type": "COURSE",
+      "image": "/data/course/python.jpg",
+      "progress": 40
+    },
+    {
+      "id": 11,
+      "name": "Communication Skills for Teams",
+      "subtitle": "Ended on 11 Jan 2025 10:00",
+      "type": "COURSE",
+      "image": "/data/course/communication.jpg",
+      "progress": 100
+    },
+    {
+      "id": 12,
+      "name": "Time Management Workshop",
+      "subtitle": "From 15.06.2025 to 20.06.2025",
+      "type": "COURSE",
+      "image": "/data/course/time-management.jpg",
+      "progress": 0
+    },
+    {
+      "id": 13,
+      "name": "Healthy Habits Challenge",
+      "subtitle": "Continue with learning path",
+      "type": "MEDIA_ITEM",
+      "image": "/data/media/healthy-habits.jpg",
+      "progress": 75
+    }
+  ],
+  "count": 13
+}

@@ -1,0 +1,7 @@
+.infoBoxSection {
+  background-color: var(--color-card-bg);
+  border: var(--border-medium) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}

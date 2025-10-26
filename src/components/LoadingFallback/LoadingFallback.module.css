@@ -1,0 +1,14 @@
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: var(--spacing-lg);
+}
+
+.loadingText {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-medium);
+}

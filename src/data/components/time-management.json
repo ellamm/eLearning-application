@@ -1,0 +1,23 @@
+{
+  "name": "Time Management Workshop",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    { "name": "Post-conclusion accessibility", "content": "Not allowed" },
+    { "name": "Enrolment type", "content": "Self-enrolment" },
+    { "name": "Maximum capacity", "content": "25 learners" },
+    { "name": "Cancelation type", "content": "User cancelation permitted" },
+    { "name": "Component ID", "content": "CMP-012" },
+    { "name": "Identification code", "content": "CRS-TIME-012" },
+    { "name": "Enrolment status", "content": "Not enrolled" },
+    { "name": "Learning mode", "content": "Course" },
+    { "name": "Administrator", "content": "John Park" },
+    { "name": "Provider", "content": "Productivity Pro" },
+    { "name": "Cost centre", "content": "Employee Training" }
+  ],
+  "language": "en-GB",
+  "startDate": "15.06.2025 08:00 (GMT+02:00)",
+  "endDate": "20.06.2025 08:00 (GMT+02:00)",
+  "learningForm": "Course",
+  "image": "/data/course/time-management.jpg"
+}

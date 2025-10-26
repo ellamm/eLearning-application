@@ -1,0 +1,60 @@
+.shareBoxSection {
+  width: 100%;
+  background-color: var(--color-card-bg);
+  border: var(--border-medium) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.title {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: var(--spacing-md);
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-sm);
+}
+
+.shareButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm);
+  min-width: 44px; /* Minimum touch target */
+  background-color: transparent;
+  color: var(--color-primary);
+  border: var(--border-medium) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-fast);
+}
+
+.shareButton:hover {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.shareButton:active {
+  transform: scale(0.98);
+}
+
+.shareButton svg {
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shareBox {
+    padding: var(--spacing-md);
+  }
+}

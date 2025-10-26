@@ -1,0 +1,26 @@
+{
+  "name": "Agile Project Management",
+  "description_data": [
+    { "name": "Planning status", "content": "Released" },
+    { "name": "Pre-start accessibility", "content": "Allowed" },
+    {
+      "name": "Post-conclusion accessibility",
+      "content": "Allowed with restrictions"
+    },
+    { "name": "Enrolment type", "content": "Manager approval required" },
+    { "name": "Maximum capacity", "content": "80 learners" },
+    { "name": "Cancelation type", "content": "Admin cancelation only" },
+    { "name": "Component ID", "content": "CMP-006" },
+    { "name": "Identification code", "content": "LP-AGILE-006" },
+    { "name": "Enrolment status", "content": "Pending approval" },
+    { "name": "Learning mode", "content": "Learning path" },
+    { "name": "Administrator", "content": "Michael Trent" },
+    { "name": "Provider", "content": "PMI Global Learning" },
+    { "name": "Cost centre", "content": "Project Management" }
+  ],
+  "language": "en-GB",
+  "startDate": "01.04.2025 08:00 (GMT+02:00)",
+  "endDate": "31.08.2025 08:00 (GMT+02:00)",
+  "learningForm": "Learning Path",
+  "image": "/data/program/agile.jpg"
+}
