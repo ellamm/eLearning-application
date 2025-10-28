@@ -25,8 +25,19 @@ export function formatDate(dateString) {
 
     const [day, month, year] = datePart.split(".");
 
-    const monthName = MONTH_NAMES[parseInt(month, 10) - 1];
     const dayNumber = parseInt(day, 10);
+    const monthNumber = parseInt(month, 10);
+
+    if (
+      isNaN(dayNumber) ||
+      isNaN(monthNumber) ||
+      monthNumber < 1 ||
+      monthNumber > 12
+    ) {
+      return "Invalid date format";
+    }
+
+    const monthName = MONTH_NAMES[monthNumber - 1];
 
     return `${dayNumber} ${monthName} ${year} ${timePart}`;
   } catch (error) {

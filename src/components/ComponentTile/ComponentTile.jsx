@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { getTypeLabel } from "@utils/componentTypeUtils";
 import styles from "./ComponentTile.module.css";
-import ComponentImage from "@/components/common/ComponentImage/ComponentImage/ComponentImage";
+import ComponentImage from "@/components/common/ComponentImage/ComponentImage";
 import Badge from "@components/common/Badge/Badge";
 import ProgressIndicator from "@components/common/ProgressIndicator/ProgressIndicator";
 import { getSlugFromName } from "@utils/componentDataLoader";

@@ -5,7 +5,7 @@ import { useComponentData } from "@hooks/useComponentData";
 import ComponentHeader from "@components/ComponentHeader/ComponentHeader";
 import DetailsSection from "@components/DetailsSection/DetailsSection";
 import InfoPanel from "@components/InfoPanel/InfoPanel";
-import ComponentImage from "@/components/common/ComponentImage/ComponentImage/ComponentImage";
+import ComponentImage from "@/components/common/ComponentImage/ComponentImage";
 import BackButton from "@/components/common/Buttons/BackButton";
 import ProgressIndicator from "@components/common/ProgressIndicator/ProgressIndicator";
 
