@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
+  base: "./",
   plugins: [
     react({
       babel: {
@@ -27,12 +28,6 @@ export default defineConfig({
   build: {
     target: "es2015", // Better browser support, smaller bundle
     minify: "esbuild",
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
     rollupOptions: {
       output: {
         manualChunks(id) {
@@ -55,5 +50,9 @@ export default defineConfig({
       },
     },
     chunkSizeWarningLimit: 1000,
+  },
+  // Add esbuild options for dropping console/debugger
+  esbuild: {
+    drop: ["console", "debugger"],
   },
 });
