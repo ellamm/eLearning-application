@@ -9,6 +9,7 @@ import { defineConfig, devices } from "@playwright/test";
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
+
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
@@ -17,7 +18,7 @@ export default defineConfig({
   workers: undefined,
   reporter: "html",
   use: {
-    baseURL: "http://localhost:5173",
+    baseURL: process.env.TEST_URL || "http://localhost:5173",
     trace: "on-first-retry",
     screenshot: "only-on-failure",
   },
@@ -51,10 +52,12 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-  webServer: {
-    command: "npm run dev",
-    url: "http://localhost:5173",
-    reuseExistingServer: true,
-    timeout: 120000,
-  },
+  webServer: process.env.TEST_URL
+    ? undefined
+    : {
+        command: "npm run dev",
+        url: "http://localhost:5173",
+        reuseExistingServer: true,
+        timeout: 120000,
+      },
 });
